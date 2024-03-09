@@ -42,7 +42,7 @@ function MapAndCounterSection()
                     </ModalHeader>
                     <ModalCloseButton />
                     <ModalBody>
-                        <Image src='https://uc420ace50e98df1370e69480a75.dl.dropboxusercontent.com/cd/0/inline/COtfcwzuhAdfoAZe_ts6UAVZM9E5qDlvyLmc0JdMazDjIlUQub6z4SXqBkbhH_vqRltkifYB9WyAdVfulcIFGlDdAfePaAiiCENvYf8zgN4WzF1Zr8y4IjnzAXe1MWfQDJ8X6VFoPerr_MiqpG0kv9JM/file#'/>
+                        <Image src='https://www.dropbox.com/s/abnc9jbr35jp261/Alliance%20Map_NG.png?raw=1' />
                     </ModalBody>
                     <ModalFooter>
                     </ModalFooter>
@@ -90,7 +90,7 @@ function MapAndCounterSection()
                 <Box>
                     <Center>
                         <VStack>
-                            <Image src='https://uc420ace50e98df1370e69480a75.dl.dropboxusercontent.com/cd/0/inline/COtfcwzuhAdfoAZe_ts6UAVZM9E5qDlvyLmc0JdMazDjIlUQub6z4SXqBkbhH_vqRltkifYB9WyAdVfulcIFGlDdAfePaAiiCENvYf8zgN4WzF1Zr8y4IjnzAXe1MWfQDJ8X6VFoPerr_MiqpG0kv9JM/file#' boxShadow={'dark-lg'} onClick={onOpen}/>
+                            <Image src='https://www.dropbox.com/s/abnc9jbr35jp261/Alliance%20Map_NG.png?raw=1' boxShadow={'dark-lg'} onClick={onOpen}/>
                             <Text as='b' fontSize='2xl' color={'white'}>
                                 <i>Press map to enlarge</i>
                             </Text>
