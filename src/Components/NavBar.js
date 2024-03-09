@@ -29,7 +29,7 @@ function NavBar()
                                     </Button>
                                 </Flex>
                                 <Center>
-                                    <Button variant="solid" colorScheme='green' size="md" onClick={() => {window.open('https://www.aoinations.com/forums/viewforum.php?f=14', '_blank');}}>
+                                    <Button variant="solid" backgroundColor={'#299ab6'} color={'white'} size="lg" onClick={() => {window.open('https://www.aoinations.com/forums/viewforum.php?f=14', '_blank');}}>
                                         <Text as='b' fontSize='2xl'>APPLY</Text>
                                     </Button>
                                 </Center>

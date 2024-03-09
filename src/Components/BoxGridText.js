@@ -1,5 +1,5 @@
 //IMPORT COMPONENTS GO HERE:
-import {Container, Stack, Box, Image,Center, Text, Flex, Button, Divider, SimpleGrid} from '@chakra-ui/react'
+import {Container, Stack, Box, Image,Center, Text, SimpleGrid} from '@chakra-ui/react'
 import { FaRegEdit } from "react-icons/fa";
 import { GiConversation } from "react-icons/gi";
 
@@ -16,7 +16,8 @@ function BoxGridText()
                             JOIN
                         </Text>
                         <Text fontSize='2xl' color='white'>
-                            It's easy to join our union - we're open to all kinds of countries, federations and city states. and a simple application form is all you need to fill out. Then, our members will vote and you could become an member state! <br/><br/> For more information please visit the Learn section of this website!
+                            <br/><br/>
+                            It's easy to join our union - we're open to all kinds of countries, federations and city states. and a simple application form is all you need to fill out. Then, our members will vote and you could become an member state!
                         </Text>
                     </Stack>
                 </Box>
