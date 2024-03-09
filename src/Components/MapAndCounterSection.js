@@ -49,44 +49,46 @@ function MapAndCounterSection()
                 </ModalContent>
             </Modal>
             <SimpleGrid columns={2} spacingX={120}>
-                <Stack spacing={2}>
-                    <Text fontSize='6xl' color='white' as='b'>
-                        A community for creative like-minded individuals.
-                    </Text>
-                    <Text fontSize='2xl' color='white'>
-                        The AIN embodies a community of members collaborating closely to construct a union aligned with their vision - a community, a fraternity, an Alliance of Independent Nations. <br/><br/>We are a union of individuals who craft imaginary nations and utilize city-building platforms such as SimCity 4 and Cities Skylines to showcase these creations and share them with others.
-                    </Text>
-                    <HStack maxWidth={'100%'} spacing={0} mt={'3rem'} boxShadow={'dark-lg'}>
-                        <Box width="50%" backgroundColor={'white'} p={'25px'}>
-                            <Center height='100%'>
-                                <VStack>
-                                    <Text as='b' fontSize='9xl'>
-                                        <CountUp start={0} end={23} enableScrollSpy scrollSpyOnce={true}/>
-                                    </Text>
-                                    <Flex>
-                                        <Text as='b' fontSize='2xl'>
-                                            MEMBERS
+                <Center>
+                    <Stack spacing={2}>
+                        <Text fontSize='6xl' color='white' as='b'>
+                            A community for creative like-minded individuals.
+                        </Text>
+                        <Text fontSize='2xl' color='white'>
+                            The AIN embodies a community of members collaborating closely to construct a union aligned with their vision - a community, a fraternity, an Alliance of Independent Nations. <br/><br/>We are a union of individuals who craft imaginary nations and utilize city-building platforms such as SimCity 4 and Cities Skylines to showcase these creations and share them with others.
+                        </Text>
+                        <HStack maxWidth={'100%'} spacing={0} mt={'3rem'} boxShadow={'dark-lg'}>
+                            <Box width="50%" backgroundColor={'white'} p={'25px'}>
+                                <Center height='100%'>
+                                    <VStack>
+                                        <Text as='b' fontSize='9xl'>
+                                            <CountUp start={0} end={23} enableScrollSpy scrollSpyOnce={true}/>
                                         </Text>
-                                    </Flex>
-                                </VStack>
-                            </Center>
-                        </Box>
-                        <Box width="50%" backgroundColor={'lightgray'} p={'25px'}>
-                            <Center height='100%'>
-                                <VStack>
-                                    <Text as='b' fontSize='9xl'>
-                                        <CountUp start={0} end={34} scrollSpyOnce={true} enableScrollSpy/>
-                                    </Text>
-                                    <Flex>
-                                        <Text as='b' fontSize='2xl'>
-                                            NATIONS
+                                        <Flex>
+                                            <Text as='b' fontSize='2xl'>
+                                                MEMBERS
+                                            </Text>
+                                        </Flex>
+                                    </VStack>
+                                </Center>
+                            </Box>
+                            <Box width="50%" backgroundColor={'lightgray'} p={'25px'}>
+                                <Center height='100%'>
+                                    <VStack>
+                                        <Text as='b' fontSize='9xl'>
+                                            <CountUp start={0} end={34} scrollSpyOnce={true} enableScrollSpy/>
                                         </Text>
-                                    </Flex>
-                                </VStack>
-                            </Center>
-                        </Box>
-                    </HStack>
-                </Stack>
+                                        <Flex>
+                                            <Text as='b' fontSize='2xl'>
+                                                NATIONS
+                                            </Text>
+                                        </Flex>
+                                    </VStack>
+                                </Center>
+                            </Box>
+                        </HStack>
+                    </Stack>
+                </Center>
                 <Box>
                     <Center>
                         <VStack>
