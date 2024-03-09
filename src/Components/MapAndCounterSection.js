@@ -54,7 +54,7 @@ function MapAndCounterSection()
                         A community for creative like-minded individuals.
                     </Text>
                     <Text fontSize='2xl' color='white'>
-                        The AIN is a community of members who work closely together to build a union that they want to see – a community, a brotherhood, an Alliance of Independent Nations. <br/><br/>We are a union of people who create fictitious countries and use city builders like SimCity, Simcity 4, and Cities Skylines to share these creations.
+                        The AIN embodies a community of members collaborating closely to construct a union aligned with their vision - a community, a fraternity, an Alliance of Independent Nations. <br/><br/>We are a union of individuals who craft imaginary nations and utilize city-building platforms such as SimCity 4 and Cities Skylines to showcase these creations and share them with others.
                     </Text>
                     <HStack maxWidth={'100%'} spacing={0} mt={'3rem'} boxShadow={'dark-lg'}>
                         <Box width="50%" backgroundColor={'white'} p={'25px'}>

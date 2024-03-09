@@ -75,22 +75,26 @@ function DisplayContentMobile()
                                 <DrawerBody>
                                     <VStack mt={'50px'} p='20px'>
                                             <Button variant="unstyled" size="lg" my={'50px'} colorScheme='black' onClick={() => {window.open('https://forums.aoinations.com/', '_blank');}}>
-                                                <Text as='b' fontSize='5xl'>FORUMS</Text>
+                                                <Text as='b' fontSize='4xl'>FORUMS</Text>
                                             </Button>
                                             <Button variant="unstyled" size="lg" my={'50px'} colorScheme='black'  onClick={() => {window.open('https://aoin.miraheze.org/wiki/Main_Page', '_blank');}}>
-                                                <Text as='b' fontSize='5xl'>WIKI</Text>
+                                                <Text as='b' fontSize='4xl'>WIKI</Text>
                                             </Button>
 
                                             <Button variant="unstyled" my={'50px'} colorScheme='black' onClick={() => {window.open('https://www.aoinations.com/forums/viewforum.php?f=36', '_blank');}}>
-                                                <Text as='b' fontSize='5xl'>HELP DESK</Text>
+                                                <Text as='b' fontSize='4xl'>HELP DESK</Text>
                                             </Button>
                                     
-                                            <Button variant="unstyled"  my={'50px'} colorScheme='black' onClick={() => {window.open('https://media.tenor.com/LuJgk042yxkAAAAM/cat-watermelon.gif', '_blank');}}>
-                                                <Text as='b' fontSize='5xl'>RULES</Text>
+                                            <Button variant="unstyled"  my={'50px'} colorScheme='black' onClick={() => {window.open('https://aoin.miraheze.org/wiki/Alliance_Charter', '_blank');}}>
+                                                <Text as='b' fontSize='4xl'>ALLIANCE CHARTER</Text>
+                                            </Button>
+
+                                            <Button variant="unstyled"  my={'50px'} colorScheme='black' onClick={() => {window.open('https://aoin.miraheze.org/wiki/Article_4_of_the_Alliance_Charter', '_blank');}}>
+                                                <Text as='b' fontSize='4xl'>CODE OF CONDUCT</Text>
                                             </Button>
 
                                             <Button p='20px' variant="solid" my={'50px'}backgroundColor={'#299ab6'} color={'white'} size="6xl" onClick={() => {window.open('https://www.aoinations.com/forums/viewforum.php?f=14', '_blank');}}>
-                                                <Text as='b' fontSize='5xl'>APPLY</Text>
+                                                <Text as='b' fontSize='4xl'>APPLY</Text>
                                             </Button>
                                     </VStack>
                                 </DrawerBody>
@@ -109,7 +113,7 @@ function DisplayContentMobile()
                 </HStack>
                 
                 {/* FOR TEXT */}
-                <Flex height={'500px'}  mt={'45px'} maxWidth='100%'>
+                <Flex height={'500px'}  mt={'50px'} width='100%'>
                     <VStack maxWidth='100%' spacing={0}>
                         <Text fontSize='2xl' color='white' as='' m={0} p={0}>
                                     WELCOME TO
@@ -135,28 +139,28 @@ function DisplayContentMobile()
                     </VStack>
                 </Flex>
 
-                <VStack maxWidth='100%' spacing={0} boxShadow={'dark-lg'}>
-                    <Box backgroundColor="#0e75ba">
+                <VStack width='100%' spacing={0} boxShadow={'dark-lg'}>
+                    <Box width='100%' backgroundColor="#0e75ba">
                         <Stack spacing={0} p={'60px'}>
                             <FaRegEdit size={60} color='white'/>
                             <Text fontSize='3xl' color='white' as='b'>
                                 JOIN
                             </Text>
                             <Text fontSize='xl' color='white'>
-                                It's easy to join our union - we're open to all kinds of countries, federations and city states. and a simple application form is all you need to fill out. Then, our members will vote and you could become an member state!
+                                Joining our union is a straightforward process - we welcome countries, federations, and city-states of all kinds. Simply complete a basic application form, and after our members vote, you could potentially become a member state!
                             </Text>
                         </Stack>
                     </Box>
-                    <Box backgroundColor="#276b90">
+                    <Box  width='100%' backgroundColor="#276b90">
                         <Stack spacing={0} p={'60px'}>
                             <GiConversation size={60} color='white'/>
                             <Text fontSize='3xl' color='white' as='b'>
                             PARTICIPATE
                             </Text>
                             <Text fontSize='xl' color='white'>
-                            Once you've joined, the opportunities and collaborations are limitless in our union. <br/> <br/>
+                            Once you've become a member, the possibilities for opportunities and collaborations within our union are boundless. <br/> <br/>
 
-    From the flexibility of your own forums to post about your country and your City Journal, to your own Wiki database and the chance of participating in a variety of sports and events, our union has everything your country could need, and more.
+                            From the freedom to create your own forums to showcase your country and maintain your City Journal, to access to our comprehensive Wiki database and the opportunity to participate in diverse sports and events, our union offers everything your country could desire, and beyond.
                             </Text>
                         </Stack>
                     </Box>
@@ -168,7 +172,8 @@ function DisplayContentMobile()
                         A community for creative like-minded individuals.<br/>
                     </Text>
                     <Text fontSize='2xl' color='white' align='center' mt='30px'>
-                        The AIN is a community of members who work closely together to build a union that they want to see – a community, a brotherhood, an Alliance of Independent Nations. <br/><br/>We are a union of people who create fictitious countries and use city builders like SimCity, Simcity 4, and Cities Skylines to share these creations.
+                    The AIN embodies a community of members collaborating closely to construct a union aligned with their vision - a community, a fraternity, an Alliance of Independent Nations.
+<br/><br/>We are a union of individuals who craft imaginary nations and utilize city-building platforms such as SimCity 4 and Cities Skylines to showcase these creations and share them with others.
                     </Text>
                     <HStack width={'100%'} spacing={0} mt={'3rem'} boxShadow={'dark-lg'}>
                         <Box width="50%" backgroundColor={'white'} p={'25px'}>

@@ -16,8 +16,8 @@ function BoxGridText()
                             JOIN
                         </Text>
                         <Text fontSize='2xl' color='white'>
-                            <br/><br/>
-                            It's easy to join our union - we're open to all kinds of countries, federations and city states. and a simple application form is all you need to fill out. Then, our members will vote and you could become an member state!
+                            <br/><br/>    
+Joining our union is a straightforward process - we welcome countries, federations, and city-states of all kinds. Simply complete a basic application form, and after our members vote, you could potentially become a member state!
                         </Text>
                     </Stack>
                 </Box>
@@ -28,9 +28,9 @@ function BoxGridText()
                             PARTICIPATE
                         </Text>
                         <Text fontSize='2xl' color='white'>
-                        Once you've joined, the opportunities and collaborations are limitless in our union. <br/> <br/>
+                        Once you've become a member, the possibilities for opportunities and collaborations within our union are boundless.<br/> <br/>
 
-From the flexibility of your own forums to post about your country and your City Journal, to your own Wiki database and the chance of participating in a variety of sports and events, our union has everything your country could need, and more.
+                        From the freedom to create your own forums to showcase your country and maintain your City Journal, to access to our comprehensive Wiki database and the opportunity to participate in diverse sports and events, our union offers everything your country could desire, and beyond.
                         </Text>
                     </Stack>
                 </Box>

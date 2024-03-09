@@ -1,13 +1,28 @@
 //IMPORT COMPONENTS GO HERE:
-import {Container, Stack, Box, Image,Center, Text, Flex, Button, Divider} from '@chakra-ui/react'
+import {Container, Stack, Box, Image,Center, Text, Flex, Button, Divider, useDisclosure,   List,
+    ListItem,
+    ListIcon,
+    OrderedList,
+    UnorderedList} from '@chakra-ui/react'
+import {
+    Modal,
+    ModalOverlay,
+    ModalContent,
+    ModalHeader,
+    ModalFooter,
+    ModalBody,
+    ModalCloseButton,
+  } from '@chakra-ui/react'
 import { FaDiscord } from "react-icons/fa6";
 import AINLogo from '../media/images/AIN_Logo_White.png'
 
 //COMPONENT SECTION CODES GO HERE:
 function NavBar()
 {
+    const { isOpen, onOpen, onClose } = useDisclosure()
     return(
         <Container maxWidth={'90%'} >
+           
             <Stack spacing={0} flexDirection="column" backgroundColor="#eeeeee" boxShadow='2xl'>
                 <Box>
                 <Stack flexDirection="row" height={'50%'} gap={0}>
@@ -53,8 +68,12 @@ function NavBar()
                                     <Text as='b' fontSize='xl'>HELP DESK</Text>
                                 </Button>
                                 
-                                <Button variant="unstyled"  mx={'20px'} colorScheme='black' onClick={() => {window.open('https://media.tenor.com/LuJgk042yxkAAAAM/cat-watermelon.gif', '_blank');}}>
-                                    <Text as='b' fontSize='xl'>RULES</Text>
+                                <Button variant="unstyled"  mx={'20px'} colorScheme='black' onClick={() => {window.open('https://aoin.miraheze.org/wiki/Alliance_Charter', '_blank');}}>
+                                    <Text as='b' fontSize='xl'>ALLIANCE CHARTER</Text>
+                                </Button>
+
+                                <Button variant="unstyled"  mx={'20px'} colorScheme='black' onClick={() => {window.open('https://aoin.miraheze.org/wiki/Article_4_of_the_Alliance_Charter', '_blank');}}>
+                                    <Text as='b' fontSize='xl'>CODE OF CONDUCT</Text>
                                 </Button>
                             </Flex>
                                 <Center>
