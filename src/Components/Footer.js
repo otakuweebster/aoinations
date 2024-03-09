@@ -14,7 +14,7 @@ function Footer()
                 </Box>
                 <Box width="80%" p={'25px'}>
                     <Flex direction={'row-reverse'}>
-                        <Text as='b' fontSize='xl'>© 2023 Alliance of Independent Nations. All rights reserved. </Text>
+                        <Text as='b' fontSize='xl'>© 2024 Alliance of Independent Nations. All rights reserved. </Text>
                     </Flex>          
                 </Box>
             </HStack>

@@ -7,7 +7,7 @@ import { GiConversation } from "react-icons/gi";
 function BoxGridText()
 {
     return (
-        <Container maxWidth={'90%'} mt={'5rem'}>
+        <Container maxWidth={'90%'} mt={'3rem'}>
             <SimpleGrid columns={2} spacingX={0} spacingY={0} borderRadius={'20px'} boxShadow={'dark-lg'}>
                 <Box backgroundColor="#0e75ba">
                     <Stack spacing={0} p={'60px'}>

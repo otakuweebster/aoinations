@@ -17,7 +17,7 @@ function App() {
         <Stack>
           <NavBar/>
 
-          <Flex maxWidth={'100%'} height={'500px'}  mx="160PX" my={'90px'} >
+          <Flex maxWidth={'100%'} height={'500px'}  mx="160PX" my={'50px'} >
             <Center height="100%" maxWidth={'100%'}>
               <Stack direction={'column'} spacing={0}>
                   <Text fontSize='3xl' color='white' as='' m={0} p={0}>
