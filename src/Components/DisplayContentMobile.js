@@ -75,26 +75,26 @@ function DisplayContentMobile()
                                 <DrawerBody>
                                     <VStack mt={'50px'} p='20px'>
                                             <Button variant="unstyled" size="lg" my={'50px'} colorScheme='black' onClick={() => {window.open('https://forums.aoinations.com/', '_blank');}}>
-                                                <Text as='b' fontSize='4xl'>FORUMS</Text>
+                                                <Text as='b' fontSize='3xl'>FORUMS</Text>
                                             </Button>
                                             <Button variant="unstyled" size="lg" my={'50px'} colorScheme='black'  onClick={() => {window.open('https://aoin.miraheze.org/wiki/Main_Page', '_blank');}}>
-                                                <Text as='b' fontSize='4xl'>WIKI</Text>
+                                                <Text as='b' fontSize='3xl'>WIKI</Text>
                                             </Button>
 
                                             <Button variant="unstyled" my={'50px'} colorScheme='black' onClick={() => {window.open('https://www.aoinations.com/forums/viewforum.php?f=36', '_blank');}}>
-                                                <Text as='b' fontSize='4xl'>HELP DESK</Text>
+                                                <Text as='b' fontSize='3xl'>HELP DESK</Text>
                                             </Button>
                                     
                                             <Button variant="unstyled"  my={'50px'} colorScheme='black' onClick={() => {window.open('https://aoin.miraheze.org/wiki/Alliance_Charter', '_blank');}}>
-                                                <Text as='b' fontSize='4xl'>ALLIANCE CHARTER</Text>
+                                                <Text as='b' fontSize='3xl'>ALLIANCE CHARTER</Text>
                                             </Button>
 
                                             <Button variant="unstyled"  my={'50px'} colorScheme='black' onClick={() => {window.open('https://aoin.miraheze.org/wiki/Article_4_of_the_Alliance_Charter', '_blank');}}>
-                                                <Text as='b' fontSize='4xl'>CODE OF CONDUCT</Text>
+                                                <Text as='b' fontSize='3xl'>CODE OF CONDUCT</Text>
                                             </Button>
 
                                             <Button p='20px' variant="solid" my={'50px'}backgroundColor={'#299ab6'} color={'white'} size="6xl" onClick={() => {window.open('https://www.aoinations.com/forums/viewforum.php?f=14', '_blank');}}>
-                                                <Text as='b' fontSize='4xl'>APPLY</Text>
+                                                <Text as='b' fontSize='3xl'>APPLY</Text>
                                             </Button>
                                     </VStack>
                                 </DrawerBody>
@@ -115,16 +115,16 @@ function DisplayContentMobile()
                 {/* FOR TEXT */}
                 <Flex height={'500px'}  mt={'50px'} width='100%'>
                     <VStack maxWidth='100%' spacing={0}>
-                        <Text fontSize='2xl' color='white' as='' m={0} p={0}>
+                        <Text fontSize='md' color='white' as='' m={0} p={0}>
                                     WELCOME TO
                             </Text>
-                            <Text fontSize='5xl' color='white' as='b'>
+                            <Text fontSize='4xl' color='white' as='b'>
                                     ALLIANCE OF
                             </Text>
-                            <Text fontSize='5xl' color='white' as='b'>
+                            <Text fontSize='4xl' color='white' as='b'>
                                     INDEPENDENT
                             </Text>
-                            <Text fontSize='5xl' color='white' as='b'>
+                            <Text fontSize='4xl' color='white' as='b'>
                                 
                                     NATIONS
                                 
