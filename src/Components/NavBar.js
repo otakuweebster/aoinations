@@ -44,7 +44,7 @@ function NavBar()
                                     </Button>
                                 </Flex>
                                 <Center>
-                                    <Button variant="solid" backgroundColor={'#299ab6'} color={'white'} size="lg" onClick={() => {window.open('https://www.aoinations.com/forums/viewforum.php?f=14', '_blank');}}>
+                                    <Button variant="solid" backgroundColor={'#299ab6'} color={'white'} size="lg" onClick={() => {window.open('https://forums.aoinations.com/viewforum.php?f=14', '_blank');}}>
                                         <Text as='b' fontSize='2xl'>APPLY</Text>
                                     </Button>
                                 </Center>
@@ -64,7 +64,7 @@ function NavBar()
                         <Center height="100%">
                             <Flex justifyContent="space-between" width={'100%'} p={'10px'}  mr={'20px'}>
                             <Flex >
-                                <Button variant="unstyled" mx={'20px'} colorScheme='black' onClick={() => {window.open('https://www.aoinations.com/forums/viewforum.php?f=36', '_blank');}}>
+                                <Button variant="unstyled" mx={'20px'} colorScheme='black' onClick={() => {window.open('https://forums.aoinations.com/viewforum.php?f=36', '_blank');}}>
                                     <Text as='b' fontSize='xl'>HELP DESK</Text>
                                 </Button>
                                 
